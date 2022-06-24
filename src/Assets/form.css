@@ -1,0 +1,77 @@
+.form-container{
+    position: relative;
+    display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding: 0px;
+gap: 40px;
+
+
+height: 252px;
+}
+
+
+.input-container{
+    display: flex;
+flex-direction: row;
+align-items: center;
+
+gap: 30px;
+
+width: 908px;
+height: 444px;
+    
+}
+.input{
+    
+    color: #2958E6;
+    font-weight: bold;
+    border-color: #2958E6;;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    background: linear-gradient(168.32deg, #0D0D0D 21.51%, rgba(13, 13, 13, 0.09) 111.37%);
+    padding: 10px;
+    width: 350px;
+    letter-spacing: 0.08rem;
+}
+
+.big-input{
+    color: #2958E6;
+    font-weight: bold;
+    border-color: #2958E6;;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    background: linear-gradient(168.32deg, #0D0D0D 21.51%, rgba(13, 13, 13, 0.09) 111.37%);
+    padding: 10px;
+    width: 650px;
+    height: 120px;
+    position: relative;
+    
+}
+.big-input::placeholder{
+    position: relative;
+    padding-top: 200px; 
+   
+}
+button{
+    position: relative;
+justify-content: center;
+left: 12%;
+align-items: center;
+padding: 12px 48px;
+
+border: 1px solid #0169FE;
+width: 318px;
+height: 56px;
+font-weight: 600;
+font-size: 16px;
+line-height: 20px;
+color: white;
+
+/* blu-amasys */
+background: #0169FE;
+cursor: pointer;
+}

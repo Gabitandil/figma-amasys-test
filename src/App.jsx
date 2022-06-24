@@ -2,7 +2,8 @@ import { useState } from 'react'
 
 import './Assets/app.css'
 import Header from './components/header'
-import Opciones from './components/options'
+import Options from './components/options'
+import Contact from './components/contact'
 function App() {
   
 
@@ -10,7 +11,9 @@ function App() {
   <div className='container'>
     <Header/>
     
-    <Opciones/>
+    <Options/>
+
+    <Contact/>
    
   </div>
   )
