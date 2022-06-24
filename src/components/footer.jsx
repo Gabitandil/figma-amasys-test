@@ -9,7 +9,7 @@ function Footer() {
     <div className='footer-container'>
     
         <img className='logo' src={Logo} alt="not found"  />
-        <div className='redes-container'>
+        <div className='redes-container-footer'>
         <img src={Fb} alt="not found" />
         <img  src={Ig} alt="not found" />
         </div>

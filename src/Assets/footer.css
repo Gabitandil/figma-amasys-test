@@ -21,7 +21,7 @@
 }
 
 
-.redes-container{
+.redes-container-footer{
     display: flex;
     flex-direction: row;
     justify-content: center;
@@ -69,3 +69,33 @@ color:white;
     color: #0169FE;
     cursor: pointer;
 }
+
+@media screen and (max-width:  1480px) {
+    .footer-container{
+       top: 3850px;
+    }
+   }
+
+   @media screen and (max-width:  768px) {
+    .footer-container{
+    
+     
+    display: flex;
+    flex-direction: column;
+    } 
+    .footer-container > img{
+     position: absolute;
+     left: 5%;
+     
+    }
+   .redes-container-footer{
+     position: absolute;
+     left: 8%;
+   }
+   .msg-footer{
+     position: relative;
+     top: -80%;
+   }
+   
+    
+ }

@@ -3,6 +3,7 @@ import '../Assets/form.css'
 function Form() {
   return (
     <div className='form-container'>
+      
      <div className='input-container'>
      <input className='input' type="text" placeholder='Nombre' />
         <input className='input' type="text" placeholder='Apellido'  />
@@ -17,9 +18,10 @@ function Form() {
      </div>
         <div >
             <input className='big-input' type="text" placeholder='Consulta...' />
-           
-        </div>
+            </div>
+        
         <button>Enviar</button>
+       
     </div>
   )
 }

@@ -4,7 +4,7 @@
     color: #0169FE;
     
 }
-html, body {
+.container{
   height: 100%;
   width: 100%;
 }

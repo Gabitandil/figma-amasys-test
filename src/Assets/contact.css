@@ -2,22 +2,22 @@
     position: absolute;
     top: 1950px;
     left: 5%;
-    width: 1431px;
-    height: 592px;
+    width: 100%;
+    
     background: linear-gradient(168.32deg, #0D0D0D 21.51%, rgba(13, 13, 13, 0.09) 111.37%);
     
 }
 
 .contact-info{
     position: absolute;
-    top: -200px;
-    left: 80%;
+    top: -220px;
+    left: 60%;
     height: 500px;
     gap: 150px;
     display: flex;
     flex-direction: column;
     
-
+    margin: 0px;
 }
 .contact-logo{
     width: 343px;
@@ -25,7 +25,7 @@
 }
 
 .redes-contacto{
-  
+    
     display: flex;
     flex-direction: row;
 
@@ -89,3 +89,38 @@ font-size: 18px;
 line-height: 24px;
 
 }
+@media screen and (max-width:  1480px) {
+    .contact-container{
+       display: flex;
+       flex-direction: column ;
+       top: 3350px;
+    }
+    .redes-contacto{
+        position: relative;
+        display: flex;
+    flex-direction: column;
+    left: 30px;
+    }
+    .redes-contacto > h1{
+        opacity: 0;
+    }
+    .redes-contacto > p{
+        opacity: 0;
+    }
+    .redes-contacto > img{
+       
+        width: 40px;
+        cursor: pointer;
+    }
+    .redes-contacto >.img-filler{
+        
+        top: 6px;
+    }
+  
+   }
+   @media screen and (max-width:  1480px) {
+    .contact-logo{
+        position: relative;
+        right: 220px;
+    }
+   }
