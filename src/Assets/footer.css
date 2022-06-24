@@ -1,0 +1,71 @@
+.footer-container {
+    position: absolute;
+    top: 2450px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 70px;
+    
+    width: 1439px;
+    height: 100px;
+    
+    background: #0169FE;
+
+}
+
+.logo {
+    width: 200px;
+    height: 96px;
+    cursor: pointer;
+}
+
+
+.redes-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    gap: 68px;
+    
+    width: 571px;
+    height: 44px;
+    
+}
+.redes-container > img:hover{
+    cursor: pointer;
+}
+
+
+
+
+.msg-footer{
+border: solid;
+
+border-spacing: 300px;
+width: 264px;
+height: 22px;
+padding: 15px;
+
+font-weight: bolder;
+font-size: 18px;
+line-height: 22px;
+
+
+
+letter-spacing: 0.05em;
+text-transform: uppercase;
+
+
+color:white;
+
+
+
+
+}
+.msg-footer:hover{
+    background-color:white ;
+    color: #0169FE;
+    cursor: pointer;
+}
