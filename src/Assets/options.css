@@ -1,0 +1,45 @@
+.opt-container{
+    position: absolute;
+    top: 250px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 50px;
+  
+  
+}
+
+
+
+
+
+.element-container{
+    position: relative;
+    background: linear-gradient(180deg, #0169FE 0%, rgba(1, 105, 254, 0.45) 0.01%, rgba(1, 105, 254, 0.75) 100%);
+    
+   
+   
+
+}
+
+.element-container > img{
+    
+    
+    width: 708px;
+    height: 438px;
+    
+    opacity:0.4
+   
+}
+
+.element-container > p {
+    position: absolute;
+    top: 60%;
+    left: 5%;
+   
+    height: 99px;
+    color: white;
+    align-self: stretch;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+}
